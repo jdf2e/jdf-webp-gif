@@ -1,3 +1,4 @@
 node_modules
 test/tmp
-vendor/cwebp*
+vendor/gif2webp*
+/test/1_mini.gif.webp

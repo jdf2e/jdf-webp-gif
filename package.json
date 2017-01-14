@@ -1,38 +1,40 @@
 {
-  "name": "jdf-webp-gif",
-  "version": "0.0.2",
-  "description": "A webp-gif wrapper for JDF ",
-  "license": "MIT",
-  "repository": "jdf2e/jdf-webp-gif",
-  "author": {
-    "name": "jdf2e",
-    "email": "wshxbqq@gmail.com",
-    "url": "github.com/jdf2e"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "bin": {
-    "jdf-webp-gif": "cli.js"
-  },
-  "scripts": {
-    "postinstall": "node lib/install.js"
-  },
-  "files": [
-    "index.js",
-    "cli.js",
-    "lib"
-  ],
-  "keywords": [
-    "webp",
-    "img",
-    "image",
-    "compress",
-    "minify",
-    "mozjpeg",
-    "optimize"
-  ],
-  "dependencies": {
-    "bin-wrapper": "^3.0.2"
-  }
+    "name": "jdf-webp-gif",
+    "readmeFilename": "readme.md",
+    "version": "0.0.2",
+    "description": "A webp-gif wrapper for JDF ",
+    "license": "MIT",
+    "repository": "jdf2e/jdf-webp-gif",
+    "author": {
+        "name": "jdf2e",
+        "email": "wshxbqq@gmail.com",
+        "url": "github.com/jdf2e"
+    },
+    "engines": {
+        "node": ">=4.0.0"
+    },
+    "bin": {
+        "jdf-webp-gif": "cli.js"
+    },
+    "scripts": {
+        "postinstall": "node lib/install.js",
+        "test": "node test/index.js"
+    },
+    "files": [
+        "index.js",
+        "cli.js",
+        "lib"
+    ],
+    "keywords": [
+        "webp",
+        "img",
+        "image",
+        "compress",
+        "minify",
+        "mozjpeg",
+        "optimize"
+    ],
+    "dependencies": {
+        "bin-wrapper": "^3.0.2"
+    }
 }
