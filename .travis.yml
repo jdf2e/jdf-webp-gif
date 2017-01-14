@@ -2,12 +2,9 @@ sudo: true
 language: node_js
 os:
   - linux
-  - osx
 before_script:
   - npm install
   - node lib/install.js
-  - ./vendor/gif2webp
+  - vendor/gif2webp -version
 node_js:
   - '6'
-  - '5'
-  - '4'
