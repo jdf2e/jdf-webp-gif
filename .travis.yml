@@ -6,6 +6,7 @@ os:
 before_script:
   - npm install
   - node lib/install.js
+  - ./vendor/gif2webp
 node_js:
   - '6'
   - '5'
