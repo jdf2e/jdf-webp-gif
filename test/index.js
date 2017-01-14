@@ -1,10 +1,10 @@
 'use strict';
-var pngquant = require("../");
+var gif2webp = require("../");
 var fs = require("fs");
 var execFile = require('child_process').execFile;
 var path = require("path");
 
-execFile(pngquant, ['-version'], function(error, stdout, stderr) {
+execFile(gif2webp, ['-version'], function(error, stdout, stderr) {
     if (error) {
         throw error;
     }
@@ -15,7 +15,7 @@ if (fs.existsSync(testPath)) {
     fs.unlinkSync(testPath)
 }
 
-execFile(pngquant, [path.join(__dirname, "1.gif"), '-o', testPath], error => {
+execFile(gif2webp, [path.join(__dirname, "1.gif"), '-o', testPath], error => {
     if (error) {
         throw error;
     }

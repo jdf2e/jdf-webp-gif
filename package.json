@@ -1,7 +1,7 @@
 {
     "name": "jdf-webp-gif",
     "readmeFilename": "readme.md",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "description": "A webp-gif wrapper for JDF ",
     "license": "MIT",
     "repository": "jdf2e/jdf-webp-gif",
